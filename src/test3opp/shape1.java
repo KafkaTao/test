@@ -75,8 +75,13 @@ public Rectangle(String color,int width,int height){
     - 重写 `calculatePerimeter()` 方法：返回 `2 * Math.PI * radius`。
 *
 * */
+class Circle extends Shape {
+    private double radius;
 
-
+    public Circle(String color, double radius) {
+        super(color);
+        this.radius = radius;
+    }
 
 
 
